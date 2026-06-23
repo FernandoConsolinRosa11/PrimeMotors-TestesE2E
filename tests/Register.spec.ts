@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('User Register',() => {
   test('Cadastro Realizado Com Sucesso! ', async ({page}) => {
-    await page.goto('https://localhost/Register');
+    await page.goto('/Register');
 
     await page.fill('input[name="name"]','Fernando Consolin Rosa');
     await page.fill('input[name="email"]','Fernando@gmail.com');
@@ -15,11 +15,11 @@ test.describe('User Register',() => {
     await page.click('button[type="submit"]');
 
  // Verificar redirecionamento ou mensagem de sucesso
-    await page.goto('https://localhost/Login',{ timeout: 10000 });
+    await page.goto('/Login',{ timeout: 10000 });
   } );
 
   test('Deve falhar com email inválido', async ({ page }) => {
-    await page.goto('https://localhost/Register');
+    await page.goto('/Register');
     
     await page.fill('input[name="name"]', 'João Silva');
     await page.fill('input[name="email"]', 'joao@gmail');
