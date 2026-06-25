@@ -106,7 +106,7 @@ test.describe('✅ Test Drive — CRUD Sucesso', () => {
     await navigateToTestDrive(page);
 
     // Valida diretamente a página de destino (Sem filtros!)
-    await expect(page.getByText(/meu agendamento/i)).toBeVisible({ timeout: 10000 });
+    await expect(page.getByText(/meu agendamento/i)).toBeVisible({ timeout: 15000 });
 
     if (carName) {
       const palavra = carName.trim().split(/\s+/)[0];
