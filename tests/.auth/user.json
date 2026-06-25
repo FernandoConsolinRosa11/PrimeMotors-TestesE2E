@@ -1,0 +1,79 @@
+{
+  "cookies": [
+    {
+      "name": "__Secure-YNID",
+      "value": "19.YT=Z2emf23vsH1mTCviuvwOAap-hnqhWSTWioQeXANmjnXswYEDieuGfrP1f2Z3XsR7_KoRiQHJlOx3Q6nJeX4p0JHu2_ezsLC0pHbm6gDlQ_9lNKmF5m2RF8yr7OrdjE3OeoES1Ov4rVpZ5MabqWvuRh195s-qFx7C5Yrp4gjJ_XP-BaEZZ_KaueJdf49sbwicpHOtW_hXHyCRLEz4ywFDXoB1vQ4jwS5i-DcKo4QlYDDgN_KxixEnRQNXMwagK9m2IksveLL0mQhBkBgNax_gg6_uvBlEbScen47Ucf_-xz00FrUf4RIMEaZQBve3TcxecPYDTrZgKNsCvGNOWimo2g",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1797899145.487224,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://localhost",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "YSC",
+      "value": "3U_yoVoFzIY",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://localhost",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CNWGgeXm95DyHRC-2N_CkKGVAxi-2N_CkKGVAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1797899145.490881,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://localhost",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "wJSbo46NkvM",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1797899145.491133,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://localhost",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJCUhIEGgAgZQ%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1797899145.491305,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://localhost",
+      "_crHasCrossSiteAncestor": true
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://localhost",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM4NGJiZWQ0LTdkNTAtNDE4ZS05YzNmLWQzYWFlM2YwYTE3NyIsImVtYWlsIjoidGVzdGVlMmVAcHJpbWVtb3RvcnMuY29tIiwiaWF0IjoxNzgyMzQ3MTQ0LCJleHAiOjE3ODI0MzM1NDR9.nmGGgzkTiEAA-_A6EHw_tx6Zm-eiRlxN0e8RMG7zB0s"
+        },
+        {
+          "name": "user_data",
+          "value": "{\"id\":\"384bbed4-7d50-418e-9c3f-d3aae3f0a177\",\"name\":\"Teste E2E\",\"email\":\"testee2e@primemotors.com\",\"cpf\":\"12345678909\",\"cep\":\"01310100\",\"number\":\"11999999999\"}"
+        }
+      ]
+    }
+  ]
+}

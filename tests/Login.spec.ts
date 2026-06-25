@@ -8,7 +8,7 @@ test.describe("User Login", () => {
     await page.locator('input[type="password"]').fill("Senha@123");
     await page.click('button[type="submit"]');
 
-    
+    //Verificar redirecionamento
     await page.goto("/", { timeout: 10000 });
   });
 
@@ -21,7 +21,7 @@ test.describe("User Login", () => {
 
     await page.click('button[type="submit"]');
 
-    
+    // Nova linha 23: Verifica se o alerta de erro está visível
     await expect(page.getByText('Email inválido', { exact: true })).toBeVisible();
   });
 
