@@ -40,4 +40,14 @@ test("CRUD Avatar - deve atualizar avatar com sucesso", async ({ page }) => {
     "📷 URL:",
     await avatar.getAttribute("src")
   );
+  const removeButton = page.getByRole("button", { name: /remover foto/i });
+  await expect(removeButton).toBeVisible();
+
+  await removeButton.click();
+
+  await expect(page.getByText("Sem foto")).toBeVisible();
+
+  await expect(avatar).not.toBeVisible();
+
+  console.log("🗑️ Avatar removido com sucesso");
 });
